@@ -4,7 +4,7 @@
     <div class="flex flex-row columns-2">
       <ul>
         <li
-          class="list-inside list-decimal font-bold capitalize"
+          class="list-inside list-decimal text-lg font-bold capitalize"
           v-for="(value, index) in adornosPastel"
           :key="index"
         >
@@ -13,7 +13,7 @@
       </ul>
       <ul>
         <li
-          class="list-none ml-2"
+          class="list-none ml-2 text-lg"
           v-for="(value, index) in adornosPastel"
           :key="index"
         >

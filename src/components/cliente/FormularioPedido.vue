@@ -5,6 +5,7 @@
         <form @submit="sendForm">
           <div class="shadow-md overflow-hidden sm:rounded-md">
             <div class="px-4 py-5 bg-gray-600 sm:p-6">
+              <h2 class="font-bold text-xl mb-3">Formulario pedido</h2>
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6 sm:col-span-3">
                   <label
