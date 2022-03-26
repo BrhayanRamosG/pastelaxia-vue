@@ -1,0 +1,21 @@
+#app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(4, 44, 98, 1) 100%
+  );
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
