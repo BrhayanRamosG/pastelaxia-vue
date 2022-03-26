@@ -1,15 +1,10 @@
-<script setup>
-import InfoSaboresPastel from "@/components/cliente/InfoSaboresPastel.vue";
-import InfoAdornosPastel from "@/components/cliente/InfoAdornosPastel.vue";
-import FormularioPedido from "@/components/cliente/FormularioPedido.vue";
-import Logo from "@/assets/img/logo.png";
-</script>
-
 <template>
   <div
     class="flex flex-col bg-gray-600 justify-end rounded-md shadow-md mx-5 my-5"
   >
-    <h1 class="font-bold text-2xl md:text-4xl text-center px-5 py-5">Bienvenido a pastelaxia</h1>
+    <h1 class="font-bold text-2xl md:text-4xl text-center px-5 py-5">
+      Bienvenido a pastelaxia
+    </h1>
     <h2 class="font-bold text-xl md:text-3xl text-center px-5 py-5">
       Pasteles hechos con los ingredientes más deliciosos de toda la vía láctea.
     </h2>
@@ -34,3 +29,21 @@ import Logo from "@/assets/img/logo.png";
   <hr class="border-sky-700 border-2 mx-5 my-5" />
   <FormularioPedido />
 </template>
+
+<script>
+import InfoSaboresPastel from "@/components/cliente/InfoSaboresPastel.vue";
+import InfoAdornosPastel from "@/components/cliente/InfoAdornosPastel.vue";
+import FormularioPedido from "@/components/cliente/FormularioPedido.vue";
+import Logo from "@/assets/img/logo.png";
+export default {
+  components: {
+    InfoSaboresPastel,
+    InfoAdornosPastel,
+    FormularioPedido,
+  },
+  setup() {
+    window.document.title = "Inicio | Pastelaxia";
+    return { Logo };
+  },
+};
+</script>

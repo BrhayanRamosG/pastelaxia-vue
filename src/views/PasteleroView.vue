@@ -15,6 +15,9 @@ import InfoCantidadSabores from "@/components/pastelero/InfoCantidadSabores.vue"
 
 export default {
   components: { InfoPedidos, InfoCantidadAdornos, InfoCantidadSabores },
-  setup() {},
+  setup() {
+    window.document.title = "Pastelero | Pastelaxia";
+    return {};
+  },
 };
 </script>
