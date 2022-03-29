@@ -33,3 +33,17 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Capturas
+
+![Logo](src/assets/img/logo.png)
+
+![Cliente](src/assets/img/Cliente.png)
+
+![Pastelero Pedidos](src/assets/img/Pastelero.png)
+
+![Pastelero Sabores y Adornos](src/assets/img/Pastelero-Adornos-Sabores.png)
+
+### Demo
+
+[Link página](https://fluffy-mandazi-f6c5a5.netlify.app/)
